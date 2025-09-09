@@ -16,6 +16,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+# UFFD GC
+PRODUCT_ENABLE_UFFD_GC := true
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
