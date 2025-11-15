@@ -1223,3 +1223,5 @@ service PcbaConfigSet /system/vendor/bin/PcbaConfigSet
 on property:odm.audio.typec.status=*
     setprop vendor.audio.typec.status ${odm.audio.typec.status}
 
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
