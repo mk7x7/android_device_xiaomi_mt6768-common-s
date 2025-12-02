@@ -8,6 +8,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     Seedvault \
     Jelly \
     Music \
+    Eleven \
     Recorder
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
