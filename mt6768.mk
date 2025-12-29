@@ -455,6 +455,11 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 # leave less information available via JDWP.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
+# Preopt critical applications
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/mt6768-common/mt6768-common-vendor.mk)
 
