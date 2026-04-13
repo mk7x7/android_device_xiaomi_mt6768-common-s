@@ -19,6 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # UFFD GC
 PRODUCT_ENABLE_UFFD_GC := true
 
+PERF_ANIM_OVERRIDE := true
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
