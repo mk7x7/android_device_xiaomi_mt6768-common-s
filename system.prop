@@ -16,6 +16,10 @@ ro.mtk_cam_stereo_camera_support=1
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.dex2oat-cpu-set=4,5,6,7
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-cpu-set=4,5,6,7
+dalvik.vm.image-dex2oat-threads=4
 
 # Display
 config.svi.path=/system/etc/SVIConfig.xml
